@@ -1,8 +1,27 @@
 aid: quantum-effect-dev
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantum-effect-dev.png
 name: Quantum Effect Dev
-description: Quantum Effect Dev is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'Quantum Effect Devices (QED, originally Quantum Effect Design) was a
+  fabless semiconductor company founded in 1991 by former MIPS Computer Systems managers
+  Tom Riordan, Earl Killian, and Ray Kunita. QED designed MIPS-based 32- and 64-bit
+  embedded RISC microprocessors (the RM5200 and RM7000 families) for networking and
+  communications systems including routers, switches, and optical transport equipment.
+  The company completed an IPO in 2000 and was acquired the same year by PMC-Sierra
+  for approximately $2.3 billion. It has no independent operations, developer platform,
+  or API surface today; the former corporate site (qedinc.com) is defunct. This record
+  was surfaced as a Lightspeed Venture Partners portfolio company and is retained as
+  a historical/no-API-surface entry.'
 url: https://raw.githubusercontent.com/api-evangelist/quantum-effect-dev/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,28 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: pmc-sierra
+x-acquired-year: 2000
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Semiconductors
+- Microprocessors
+- MIPS
+- Networking
+- Hardware
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
